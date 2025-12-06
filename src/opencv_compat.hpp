@@ -6,7 +6,10 @@
 
 // 优先使用单头 opencv.hpp（常见于 OpenCV 3/4 的安装包）
 #if __has_include(<opencv2/opencv.hpp>)
-#include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
 
 // 其次尝试常用的子模块组合（适用于部分裁剪安装或不同布局）
 #elif __has_include(<opencv2/core.hpp>)

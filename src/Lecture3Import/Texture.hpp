@@ -5,7 +5,10 @@
 #ifndef RASTERIZER_TEXTURE_H
 #define RASTERIZER_TEXTURE_H
 #include "global.hpp"
-#include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
 class Texture{
 private:
     cv::Mat image_data;

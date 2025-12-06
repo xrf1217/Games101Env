@@ -1,6 +1,9 @@
 #include "Lecture3.h"
 #include <Eigen/Dense>
-#include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
 #include <iostream>
 #include <filesystem>
 #include "Lecture3Import/global.hpp"

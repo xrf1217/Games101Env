@@ -5,7 +5,9 @@
 #include <algorithm>
 #include "global.hpp"
 #include "Shader.hpp"
-
+#include <map>
+#include <algorithm>
+#include <cmath>
 using namespace Eigen;
 
 namespace rst3
