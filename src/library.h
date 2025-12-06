@@ -1,0 +1,6 @@
+#ifndef HOMEWORKITEM_LIBRARY_H
+#define HOMEWORKITEM_LIBRARY_H
+
+void hello();
+
+#endif //HOMEWORKITEM_LIBRARY_H
